@@ -26,8 +26,8 @@ def q5(n: int):
     for i in range(1, n + 1):
         row = []
         for j in range(1, i + 1):
-            row.append(i * j)
-        result.append(row)
+            row.append(f"{i*j}")
+        result.append(" ".join(row))
     return result
 
 
